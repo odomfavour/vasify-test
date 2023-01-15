@@ -7,7 +7,10 @@ const Preparation = () => {
         <div className="image-section md:w-1/2 w-full">
             <img src={pointer} alt="woman pointing" className="mx-auto" />
         </div>
-        <div className="prep-section md:w-1/2 w-full">
+        <div className="prep-section md:w-1/2 w-full" data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-cubic">
           <h3 className="md:text-5xl text-3xl font-bold mb-3">Preparation before <br></br>Vaccination</h3>
           <p className="mb-5">
             The success of the vaccine is strongly influenced by the strength of

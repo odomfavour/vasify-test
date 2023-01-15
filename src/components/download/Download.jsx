@@ -18,9 +18,12 @@ const Download = () => {
         </div>
         </div>
         <div className="md:w-1/2 w-full flex justify-center">
-         <div className="flex">
-         <img src={phone} alt="mobile phone" className="h-[500px] md:mt-[-200px]" />
-          <img src={phone} alt="mobile phne" className="h-[500px] md:mt-[-200px] hidden md:block" />
+         <div className="flex" data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-cubic">
+         <img src={phone} alt="mobile phone" className="animate-pulse-slow h-[500px] md:mt-[-200px]" />
+          <img src={phone} alt="mobile phone" className="animate-pulse-slow h-[500px] md:mt-[-200px] hidden md:block" />
          </div>
         </div>
       </div>

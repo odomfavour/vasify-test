@@ -16,10 +16,10 @@ const Index = () => {
         <Header />
         <HeroSection />
       </div>
-      <div className="min-h-screen md:py-16">
+      <div className="md:min-h-screen md:py-16">
         <Features />
       </div>
-      <div className="min-h-screen md:py-16">
+      <div className="md:min-h-screen md:py-16">
         <Preparation />
       </div>
       <div className="py-16 bg-[#f5f5fd]">

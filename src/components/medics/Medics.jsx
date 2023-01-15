@@ -7,8 +7,8 @@ const Medics = () => {
         <h3 className="font-bold md:text-5xl text-3xl mb-9">Our Medical Specialists</h3>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-8">
         <div>
-          <div className="image-box mb-3">
-            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover" />
+          <div className="image-box mb-3 overflow-hidden">
+            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150" />
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
@@ -16,8 +16,8 @@ const Medics = () => {
           </div>
         </div>
         <div>
-          <div className="image-box mb-3">
-            <img src={doc2} alt="doctor" className="h-[300px] w-full object-cover"/>
+          <div className="image-box mb-3 overflow-hidden">
+            <img src={doc2} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
@@ -25,8 +25,8 @@ const Medics = () => {
           </div>
         </div>
         <div>
-          <div className="image-box mb-3">
-            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover"/>
+          <div className="image-box mb-3 overflow-hidden">
+            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
@@ -34,8 +34,8 @@ const Medics = () => {
           </div>
         </div>
         <div>
-          <div className="image-box mb-3">
-            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover"/>
+          <div className="image-box mb-3 overflow-hidden">
+            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>

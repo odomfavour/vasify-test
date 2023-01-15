@@ -2,7 +2,7 @@ import React from "react";
 import phone from "../../images/phone.png";
 import playstore from "../../images/playstore-bg.png";
 import appstore from "../../images/appstore-bg.png";
-
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const HeroSection = () => {
   return (
     <div className="w-11/12 mx-auto pt-[100px]">
@@ -17,18 +17,29 @@ const HeroSection = () => {
             you <br></br> never miss an opportunity
           </p>
 
-          <p>Want to join the journey now? <span className="font-bold">Download App</span></p>
+          <p>
+            Want to join the journey now?{" "}
+            <span className="font-bold">Download App</span>
+          </p>
           <div className="flex gap-4 my-4">
             <button>
               <img src={playstore} alt="" className="h-[48px]" />
             </button>
             <button>
-              <img src={appstore} alt="" className="h-[48px]"/>
+              <img src={appstore} alt="" className="h-[48px]" />
             </button>
           </div>
         </div>
         <div className="md:w-1/2 w-full">
-          <img src={phone} alt="mobile phine" className="h-[500px] mx-auto" />
+          <img
+            src={phone}
+            alt="mobile phine"
+            className="h-[500px] mx-auto"
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out-cubic"
+          />
         </div>
       </div>
     </div>
