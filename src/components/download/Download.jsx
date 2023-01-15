@@ -17,7 +17,7 @@ const Download = () => {
           </button>
         </div>
         </div>
-        <div className="md:w-1/2 w-full flex justify-center">
+        <div className="md:w-1/2 w-full flex justify-center overflow-hidden">
          <div className="flex" data-aos="fade-left"
             data-aos-delay="50"
             data-aos-duration="1000"

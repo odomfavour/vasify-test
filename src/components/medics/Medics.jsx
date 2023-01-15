@@ -5,7 +5,7 @@ const Medics = () => {
   return (
     <div className="w-11/12 mx-auto md:pt-[100px] md:pb-[150px] py-14">
         <h3 className="font-bold md:text-5xl text-3xl mb-9">Our Medical Specialists</h3>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-8">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 md:gap-8 gap-3">
         <div>
           <div className="image-box mb-3 overflow-hidden">
             <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150" />
