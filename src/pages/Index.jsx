@@ -11,7 +11,7 @@ import Testimonials from "../components/testimonials/Testimonials";
 
 const Index = () => {
   return (
-    <section className="font-nunito">
+    <section className="font-nunito overflow-hidden">
       <div className="hero-section bg-[#f5f5fd]  font-nunito">
         <Header />
         <HeroSection />
@@ -29,7 +29,7 @@ const Index = () => {
         <Medics />
         <Testimonials />
       </div>
-      <div className=" bg-[#addde9]">
+      <div className="bg-[#addde9]">
         <Download />
       </div>
       <div className="bg-[#0119b7] text-white">

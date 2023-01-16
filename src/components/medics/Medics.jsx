@@ -8,7 +8,7 @@ const Medics = () => {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 md:gap-8 gap-3">
         <div>
           <div className="image-box mb-3 overflow-hidden">
-            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150" />
+            <img src={doc1} alt="doctor" className="md:h-[300px] h-[200px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150" />
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
@@ -17,7 +17,7 @@ const Medics = () => {
         </div>
         <div>
           <div className="image-box mb-3 overflow-hidden">
-            <img src={doc2} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
+            <img src={doc2} alt="doctor" className="md:h-[300px] h-[200px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
@@ -26,7 +26,7 @@ const Medics = () => {
         </div>
         <div>
           <div className="image-box mb-3 overflow-hidden">
-            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
+            <img src={doc1} alt="doctor" className="md:h-[300px] h-[200px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
@@ -35,7 +35,7 @@ const Medics = () => {
         </div>
         <div>
           <div className="image-box mb-3 overflow-hidden">
-            <img src={doc1} alt="doctor" className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
+            <img src={doc1} alt="doctor" className="md:h-[300px] h-[200px] w-full object-cover hover:scale-110 transition-all duration-100 ease-in-out delay-150"/>
           </div>
           <div className="medic-info text-center">
             <h5 className="font-semibold text-xl">John Thomas</h5>
