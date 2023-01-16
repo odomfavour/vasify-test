@@ -1,5 +1,6 @@
 import React from "react";
-import phone from "../../images/phone.png";
+import phone from "../../images/phone-2.png";
+import phone1 from "../../images/phone-1.png";
 import playstore from "../../images/playstore-bg.png";
 import appstore from "../../images/appstore-bg.png";
 const Download = () => {
@@ -23,7 +24,7 @@ const Download = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out-cubic">
          <img src={phone} alt="mobile phone" className="animate-pulse-slow h-[500px] md:mt-[-200px]" />
-          <img src={phone} alt="mobile phone" className="animate-pulse-slow h-[500px] md:mt-[-200px] hidden md:block" />
+          <img src={phone1} alt="mobile phone" className="animate-pulse-slow h-[500px] md:mt-[-200px] hidden md:block" />
          </div>
         </div>
       </div>

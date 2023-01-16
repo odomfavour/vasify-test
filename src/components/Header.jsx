@@ -7,7 +7,7 @@ const Header = () => {
       <div className="w-11/12 mx-auto">
         <div className="flex justify-between py-3 items-center">
           <div className="md:hidden block">
-            <FaBars className="text-3xl" role="button" />
+            <FaBars className="text-3xl text-[#a4a59f]" role="button" />
           </div>
           <div className="md:w-1/2">
             <Link to="/" className="text-xl font-semibold">

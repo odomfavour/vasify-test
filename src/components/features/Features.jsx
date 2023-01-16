@@ -1,5 +1,5 @@
 import React from "react";
-import phone from "../../images/phone.png";
+import phone from "../../images/phone-1.png";
 
 const Features = () => {
   return (

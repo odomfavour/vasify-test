@@ -1,11 +1,10 @@
 import React from "react";
-import phone from "../../images/phone.png";
+import phone from "../../images/phone-1.png";
 import playstore from "../../images/playstore-bg.png";
 import appstore from "../../images/appstore-bg.png";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 const HeroSection = () => {
   return (
-    <div className="w-11/12 mx-auto pt-[100px]">
+    <div className="w-11/12 mx-auto pt-[70px]">
       <div className="flex md:flex-row flex-col items-center pb-10">
         <div className="md:w-1/2 w-full">
           <h1 className="md:text-5xl text-2xl font-bold mb-3 font-nunito">
@@ -30,16 +29,19 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 w-full relative">
           <img
             src={phone}
             alt="mobile phine"
-            className="h-[500px] mx-auto"
+            className="h-[500px] mx-auto pt-8"
             data-aos="fade-down"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out-cubic"
           />
+          <div className="h-5 w-5 rounded-full bg-[#0119b7] top-1 right-24 absolute"></div>
+          <div className="h-5 w-5 rounded-full bg-[#0119b7]  top-24 right-0 absolute"></div>
+          <div className="md:h-10 md:w-10 h-7 w-7 rounded-full bg-[#0119b7] top-60 md:right-10 left-0 absolute"></div>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Testimonials = () => {
       </h3>
       <div className="flex justify-between items-center md:mb-[200px] gap-3">
         <button
-          className="lg:h-[80px] lg:w-[80px] rounded-full h-10 w-10 bg-[#a7dbe9] text-white flex justify-center items-center hover:bg-[#001bb4] transition ease-in-out delay-150"
+          className="lg:h-[80px] lg:w-[80px] rounded-full h-10 w-10 bg-[#a7dbe9] text-white flex justify-center items-center hover:bg-[#001bb4]  focus:bg-[#001bb4] transition ease-in-out delay-150"
           role="button"
           disabled={slideIndex === 0}
           onClick={() => setSlideIndex(slideIndex - 1)}
@@ -68,7 +68,7 @@ const Testimonials = () => {
                   <img
                     src={mother1}
                     alt="mother staring"
-                    className="md:h-[80px] md:w-[80px] h-16 w-16 rounded-full object-cover"
+                    className="md:h-[80px] md:w-[80px] h-10 w-10 rounded-full object-cover"
                   />
                 </div>
                 <div>
@@ -96,7 +96,7 @@ const Testimonials = () => {
                   <img
                     src={mother1}
                     alt="mother staring"
-                    className="md:h-[80px] md:w-[80px] h-16 w-16 rounded-full object-cover"
+                    className="md:h-[80px] md:w-[80px] h-10 w-10 rounded-full object-cover"
                   />
                 </div>
                 <div>
@@ -124,7 +124,7 @@ const Testimonials = () => {
                   <img
                     src={mother1}
                     alt="mother staring"
-                    className="md:h-[80px] md:w-[80px] h-16 w-16 rounded-full object-cover"
+                    className="md:h-[80px] md:w-[80px] h-10 w-10 rounded-full object-cover"
                   />
                 </div>
                 <div>
@@ -138,7 +138,7 @@ const Testimonials = () => {
           )}
         </div>
         <button
-          className="lg:h-[80px] lg:w-[80px] h-10 w-10 rounded-full bg-[#001bb4] text-white flex justify-center items-center"
+          className="lg:h-[80px] lg:w-[80px] h-10 w-10 rounded-full bg-[#a7dbe9] text-white flex justify-center items-center hover:bg-[#001bb4] focus:bg-[#001bb4] transition ease-in-out delay-150"
           role="button"
           disabled={slideIndex === 4}
           onClick={() => setSlideIndex(slideIndex + 1)}
