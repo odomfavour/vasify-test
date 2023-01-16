@@ -41,7 +41,8 @@ const HeroSection = () => {
           />
           <div className="h-5 w-5 rounded-full bg-[#0119b7] top-1 right-24 absolute"></div>
           <div className="h-5 w-5 rounded-full bg-[#0119b7]  top-24 right-0 absolute"></div>
-          <div className="md:h-10 md:w-10 h-7 w-7 rounded-full bg-[#0119b7] top-60 md:right-10 left-0 absolute"></div>
+          <div className="md:h-10 md:w-10 h-7 w-7 rounded-full bg-[#0119b7] top-60 right-10 absolute hidden md:block"></div>
+          <div className="md:h-10 md:w-10 h-7 w-7 rounded-full bg-[#0119b7] top-60 left-0 absolute md:hidden block"></div>
         </div>
       </div>
     </div>
